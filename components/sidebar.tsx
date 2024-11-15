@@ -24,20 +24,25 @@ export const Sidebar = ({ className }: SidebarProps) => {
           <Image src="/mascot.svg" alt="Mascot" height={40} width={40} />
 
           <h1 className="text-2xl font-extrabold tracking-wide text-green-600">
-            Lingo
+            {/* Lingo */}
+            SKYDINO Học tập mỗi ngày
           </h1>
         </div>
       </Link>
 
       <div className="flex flex-1 flex-col gap-y-2">
-        <SidebarItem label="Learn" href="/learn" iconSrc="/learn.svg" />
+        {/* <SidebarItem label="Learn" href="/learn" iconSrc="/learn.svg" /> */}
+        <SidebarItem label="Vào học" href="/learn" iconSrc="/learn.svg" />
         <SidebarItem
-          label="Leaderboard"
+          // label="Leaderboard"
+          label="Bảng xếp hạng"
           href="/leaderboard"
           iconSrc="/leaderboard.svg"
         />
-        <SidebarItem label="Quests" href="/quests" iconSrc="/quests.svg" />
-        <SidebarItem label="Shop" href="/shop" iconSrc="/shop.svg" />
+        {/* <SidebarItem label="Quests" href="/quests" iconSrc="/quests.svg" /> */}
+        <SidebarItem label="Cuộc thi" href="/quests" iconSrc="/quests.svg" />
+        {/* <SidebarItem label="Shop" href="/shop" iconSrc="/shop.svg" /> */}
+        <SidebarItem label="Mua khóa học" href="/shop" iconSrc="/shop.svg" />
       </div>
 
       <div className="p-4">

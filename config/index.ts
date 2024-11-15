@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 
 export const siteConfig: Metadata = {
-  title: "Lingo",
+  // title: "Lingo",
+  title: "SKYDINO Học tập mỗi ngày",
   description:
     "Interactive platform for language learning with lessons, quizzes, and progress tracking.",
   keywords: [
